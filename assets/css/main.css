@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+}
+
+.iconD {
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.collapse {
+  font-size: 15px;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+#newSeasion {
+  background-image: url(/assets/img/slide-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#newSeasion .newSeasion {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#newSeasion .newSeasion button {
+  border-radius: 50px;
+  padding: 10px 10px;
+  border: transparent;
+  background-color: #717FE0;
+  color: white;
+  width: 10%;
+}
+
+#spring .spring {
+  border: 2px solid #EFEDE8;
+}
+#spring .spring img {
+  width: 100%;
+}
+#spring .spring p {
+  position: absolute;
+}
